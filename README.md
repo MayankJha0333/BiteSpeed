@@ -51,7 +51,7 @@ npm run build
 
 ## 🎥 Video Demo
 
-[Watch the video on YouTube](https://youtu.be/hQyNxhBoyU0)
+<video src="assets/Screen%20Recording%202025-08-19%20at%2012.06.38%E2%80%AFAM.mov" controls width="700"></video>
 
 ## 🔮 Future Enhancements
 
