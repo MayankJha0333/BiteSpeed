@@ -1,4 +1,4 @@
-# Flow Builder Application
+# BiteSpeed Flow Builder
 
 A **Next.js + ReactFlow** based chatbot flow builder with drag-and-drop functionality and real-time editing.
 
