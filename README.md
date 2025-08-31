@@ -51,7 +51,7 @@ npm run build
 
 ## 🎥 Video Demo
 
-(https://github.com/MayankJha0333/BiteSpeed/blob/main/assets/Screen%20Recording%202025-08-19%20at%2012.06.38%E2%80%AFAM.mov)
+[Watch the video on YouTube](https://youtu.be/hQyNxhBoyU0)
 
 ## 🔮 Future Enhancements
 
