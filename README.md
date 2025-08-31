@@ -51,9 +51,7 @@ npm run build
 
 ## 🎥 Video Demo
 
-👉 [Insert your video link here]
-
-_(Showcase node creation, editing, connecting, saving, and clearing data.)_
+(https://github.com/MayankJha0333/BiteSpeed/blob/main/assets/Screen%20Recording%202025-08-19%20at%2012.06.38%E2%80%AFAM.mov)
 
 ## 🔮 Future Enhancements
 
