@@ -3,7 +3,7 @@ import { FLOW_CONFIG, STORAGE_KEYS } from "./constants";
 import { FlowData } from "./types";
 
 /**
- * Check if all nodes in the flow are connected
+ * Check if each node has at least one connection (as source or target)
  */
 export const areAllNodesConnected = (nodes: Node[], edges: Edge[]): boolean => {
   if (nodes.length <= 1) return true;
@@ -16,8 +16,16 @@ export const areAllNodesConnected = (nodes: Node[], edges: Edge[]): boolean => {
     connectedNodeIds.add(edge.target);
   });
 
-  // Check if all nodes are connected
-  return nodes.every((node) => connectedNodeIds.has(node.id));
+  // Check if each node has at least one connection
+  const allConnected = nodes.every((node) => {
+    const isConnected = connectedNodeIds.has(node.id);
+    if (!isConnected) {
+      console.log(`Node ${node.id} is not connected`);
+    }
+    return isConnected;
+  });
+
+  return allConnected;
 };
 
 /**

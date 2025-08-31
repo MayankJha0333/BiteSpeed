@@ -27,7 +27,9 @@ export const flowToasts = {
   saveError: () => showToast.error("Failed to save to localStorage!"),
   clearError: () => showToast.error("Failed to clear localStorage!"),
   connectionError: () =>
-    showToast.error("Cannot save flow! All nodes must be connected."),
+    showToast.error(
+      "Cannot save flow! Each node must have at least one connection."
+    ),
   nodeAdded: () => showToast.info("New message node added!"),
   messageUpdated: () => showToast.success("Message updated successfully!"),
 };
